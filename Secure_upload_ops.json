@@ -1,0 +1,11 @@
+// uploading files
+
+upload(file)
+
+convert_to_form(file, form)
+
+enable_viewing(file, viewer)
+
+enable_editing(file, editor)
+
+enable_commenting(file, commentator)
