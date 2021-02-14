@@ -1,0 +1,22 @@
+
+articles = generate_articles(searched_news)
+
+keywords = find_keyword(searched_news)
+
+key_articles = generate_articles(keywords)
+
+articles_by_date = sort_by_date(key_articles)
+
+article_by_author = find_Article_by(Author)
+
+Author_of = find_Author(article)
+
+publisher = find_publisher(article)
+
+Articles_by_publisher = find_articles_published_by(publisher)
+
+external_sources = find_external_links(article)
+
+sentiment = find_Sentiment(article)
+
+
