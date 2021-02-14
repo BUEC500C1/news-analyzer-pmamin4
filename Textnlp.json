@@ -1,0 +1,24 @@
+search results = browse_database(text,search engine)
+
+sentiment = sentiment_of_text(text)
+
+translation = translate_text(text)
+
+definition = define_text(text)
+
+document1 = create_document()
+
+document(text,document1)
+
+edit_document(edit, document1)
+
+highlight_text_in_document = highlight(text, document1)
+
+link = hyperlink(text, document, search results)
+
+math = math_reader(text)
+
+amount_of_use = textfind(text,document)
+
+
+
