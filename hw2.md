@@ -16,6 +16,11 @@ Text NLP Analysis:
 
 3. I want the text to be translatable.
 
+4. If text could be defined, I want definitions to be returned.
+
+5. I want to find that text could be linked to website urls.
+
+6. I want to be have math phrases detected and returned as math results or equations.
 
 News feed ingestor:
 
