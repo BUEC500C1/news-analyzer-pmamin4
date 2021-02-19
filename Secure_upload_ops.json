@@ -1,8 +1,24 @@
 // uploading files
 
-upload(file)
+def upload(file):
+  
+  create log
+  if filetype is invalid:
+    return 'invalid type'
+  if filetype is valid:
+    log(file)
+    return 'saved'
 
-convert_to_form(file, form)
+def convert_to_form(file, form):
+
+  if form is invalid:
+    return 'invalid'
+  elif filetype is invalid:
+    return 'invalid'
+  else:
+    file_in_form = newfile
+    return upload(newfile)
+
 
 enable_viewing(file, viewer)
 
