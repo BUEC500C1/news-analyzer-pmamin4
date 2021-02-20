@@ -1,4 +1,10 @@
+Class Text
 
+    open()
+    edit()
+    find()
+    createhyperlink()
+    
 def textfind(text,document):
     
     count = 0
@@ -9,7 +15,7 @@ def textfind(text,document):
     return count
 
 
-def create_document(doctype):
+def create_document(doctype,text):
 
     if doctype is not valid:
         return 'invalid document type'
@@ -18,6 +24,7 @@ def create_document(doctype):
       return 'invalid characters'
     else:
       merge(doctype,text)
+      return 'uploaded'
 
 
 
@@ -38,11 +45,13 @@ def view_document(document):
     if document is not valid:
         return 'invalid document form'
     else:
+        document.open
         return 'document opened'
 
 
 
 def definition(word):
+    
 
   define = 'definition of the word with a link to source' + hyperlink
 
@@ -54,10 +63,11 @@ def hyperlink(text,source_url):
 
   if source_url is not valid:
     return 'invalid url'
-  url = input(source_url)
+  elif text is not str()
+    return 'invalid text'
   
-  text = input('text')
-  createhyperlink()
+  else:
+       text.createhyperlink(source_url)
 
 
   return 'source linked'
