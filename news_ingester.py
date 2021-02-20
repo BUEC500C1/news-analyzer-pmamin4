@@ -5,7 +5,7 @@ Class news_ingestor
   add()
   remove()
   wordcount()
-  summerize()
+  summarize()
   date()
   title()
   count()
@@ -15,18 +15,24 @@ Class news_ingestor
   Author()
 
 
-def summarize(article):
+def summarize(news,limit):
     
-    if article.wordcount <= 100
+    if news.wordcount <= limit
         return 'too short'
     else:
-        return article.summerize()
+        news.summarize
+        return 'summarized'
+        
         
         
 def delete(news,text):
     
-    if news does not exist:
-        return 'news does not exist'
+    if news is not str():
+        return 'invalid news/text'
+      
+    elif text is not str():
+        return 'invalid news/text'
+      
     elif text not in news:
         return 'text not in news'
     
@@ -35,36 +41,42 @@ def delete(news,text):
     
 def rename(news_article,new_title):
     
-    if news_article does not exist:
-        return 'no article'
-         
-    news_article.title() = new_title
-    return news_article.title()
+    if news_article.title() == new_title:
+        return 'title unchanged'
+    elif news_article is not str():
+      return 'invalid title'
+    elif new_title is not str():
+      return 'invalid title'
+    else:
+      news_article.title() = new_title
+      return 'title updated'
 
 
 
 def generate_articles(searched_news):
       
-    if serched_news not a valid word:
-        return 'no article'
+    if serched_news is not str():
+        return 'no articles found'
     else:
-        return 'results here!'
+        return 'results here:'
 
 def visibility(news,switch):
     
     if switch not in ['on','off']
         return 'invalid switch'
     elif switch in 'on':
-        return news.enable_view()
+        news.enable_view()
+        return 'view enabled'
     else:
         if switch in 'off':
-            return news.disable_view()
+            news.disable_view()
+            return 'view disabled'
         
 def assign_Author(news,author):
     
     if news.Author() == ' ':
         news.Author == author
-        return news.Author
+        return 'Author updated'
     else:
         news.Author /= ' ':
             return 'has Author already' 
