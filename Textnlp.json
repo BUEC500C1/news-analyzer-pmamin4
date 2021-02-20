@@ -1,24 +1,87 @@
-search results = browse_database(text,search engine)
 
-sentiment = sentiment_of_text(text)
+def textfind(text,document):
+    
+    count = 0
 
-translation = translate_text(text)
+    for all 'text' in document:
+      count +=1
 
-definition = define_text(text)
-
-document1 = create_document()
-
-document(text,document1)
-
-edit_document(edit, document1)
-
-highlight_text_in_document = highlight(text, document1)
-
-link = hyperlink(text, document, search results)
-
-math = math_reader(text)
-
-amount_of_use = textfind(text,document)
+    return count
 
 
+def create_document():
+
+    text = input_text('input text here')
+    if text not text type:
+      return 'invalid characters'
+    else:
+      save_text = save_document(text)
+
+
+
+def save_document(document):
+
+## use [] as a variable holder (this would be a way to hold/save a document
+    if document is not text type:
+        return 'invalid type'
+
+    text_storage = [document]
+    
+    return 'document saved'
+
+
+
+def view_document(document):
+
+    if document is not valid:
+        return 'invalid document form'
+    else:
+        return 'document opened'
+
+
+
+def definition(word):
+
+  define = 'definition of the word with a link to source' + hyperlink
+
+  return define
+
+
+
+def hyperlink(text,source_url):
+
+  if source_url is not valid:
+    return 'invalid url'
+  url = input(source_url)
+  
+  text = input('text')
+  createhyperlink()
+
+
+  return 'source linked'
+
+
+def math_operations(num1,operation,num2):
+
+    op = ['+', '-', '/', '*']
+    
+    if operation not in op:
+       return 'invalid operation'
+    
+    elif num1 or num2 are not float or int types:
+       return 'invalid numbers'
+
+    elif operation == '+'
+          return num1 + num2
+
+    elif operation == '-':
+          return num1 - num2
+    elif operation == '/':
+          return num1 / num2
+    else:
+        if operation == '*'
+            return num1 * num2
+
+
+  
 
