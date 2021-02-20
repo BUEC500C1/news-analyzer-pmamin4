@@ -9,13 +9,15 @@ def textfind(text,document):
     return count
 
 
-def create_document():
+def create_document(doctype):
 
+    if doctype is not valid:
+        return 'invalid document type'
     text = input_text('input text here')
     if text not text type:
       return 'invalid characters'
     else:
-      save_text = save_document(text)
+      merge(doctype,text)
 
 
 
