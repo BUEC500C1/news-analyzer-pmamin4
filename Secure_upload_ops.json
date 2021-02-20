@@ -20,8 +20,29 @@ def convert_to_form(file, form):
     return upload(newfile)
 
 
-enable_viewing(file, viewer)
+def enable_viewing(file, viewer):
 
-enable_editing(file, editor)
+  if file not valid:
+    return 'invalid file'
 
-enable_commenting(file, commentator)
+  elif viewer not valid email:
+    return 'invalid email'
+
+  else:
+      return "viewer enabled"
+
+
+def enable_editing(file, editor):
+
+  enable_viewing(file,editor)
+  enable(editor)
+  return 'editor enabled'
+
+
+def enable_commenting(file, commentator):
+   
+   enable_viewing(file,commentator)
+   enable(commentator)
+   return 'commentator enabled'
+
+
