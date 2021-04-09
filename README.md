@@ -36,5 +36,6 @@ My delete and update methods are not yet complete
 <img width="1062" alt="Screen Shot 2021-04-06 at 11 34 46 PM" src="https://user-images.githubusercontent.com/70705672/113809325-da82d400-9735-11eb-8776-226b65f58327.png">
 
 
-I am also still working on the news ingestor module.
+This is a link to the google drive with videos demonstrating the functions of my API (4-9-21)
 
+https://drive.google.com/drive/folders/1AaU68yNxXlC-p5bEotLVSU--R5zvLexL?usp=sharing
